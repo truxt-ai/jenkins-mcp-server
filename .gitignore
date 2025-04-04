@@ -9,3 +9,31 @@ wheels/
 # Virtual environments
 .venv
 .env
+venv/
+env/
+
+# Project-specific files
+PLANNING.md
+TASK.md
+jenkins_mcp.log
+jenkins_mcp_cursor_config.json
+.python-version
+.pytest_cache/
+
+# MCP testing and configuration files
+jenkins_mcp.log
+*.log
+.coverage
+htmlcov/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary and backup files
+*~
+*.bak
+*.tmp
