@@ -11,7 +11,7 @@ httpx==0.28.1
 httpx-sse==0.4.0
 idna==3.10
 markdown-it-py==3.0.0
-mcp==1.6.0
+mcp[cli]>=0.7.0
 mdurl==0.1.2
 multi-key-dict==2.0.3
 pbr==6.1.1
@@ -19,8 +19,8 @@ pydantic==2.11.0
 pydantic-core==2.33.0
 pydantic-settings==2.8.1
 pygments==2.19.1
-python-dotenv==1.1.0
-python-jenkins==1.8.2
+python-dotenv>=1.0.0
+python-jenkins>=1.8.0
 requests==2.32.3
 rich==13.9.4
 setuptools==78.1.0
